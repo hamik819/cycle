@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, width=device-width, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- <meta name="og:title" content=""/>
+    <meta name="og:type" content="website"/>
+    <meta name="og:description" content=""/>
+    <meta name="og:image" content=""/>
+    <meta name="og:url" content=""/> -->
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/> -->
+    <title>Document</title>
+</head>
+<body>
+<div id="wrapper">
+    <header class="header">
+        <div class="header__inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="gnb">
+                    <li>
+                        <a href="javascript:void(0)">vélos</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">pédales</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">textiles</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">composants</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="container">
+        <section class="hero">
+            <span class="hero__small_title">nouveau</span>
+            <div class="hero__wrap">
+                <h1 class="hero__title">795 Blade<sup>RS</sup></h1>
+            </div>
+        </section>
+        <section class="reveal">
+            <div class="reveal__image">
+                <canvas id="canvas1"></canvas>
+            </div>
+            <div class="title-large">
+                <div class="title-wrap">
+                    <p>
+                        Le plus rapide de nos<br />vélos de compétition,<br />né pour tout gagner
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="argumentation">
+            <div class="argumentation__text">
+                <div class="line">
+                    <div class="wrap">
+                        <p class="desc">La lame la plus tranchante de notre arsenal, une machine sans<br />compromis déliée à la compétition.</p>
+                        <p class="title">Aéro</p>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <p class="title">Réactif</p>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <p class="title">Léger</p>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="wrap">
+                        <p class="title">Rapide</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cofidis">
+            <div class="title-large">
+                <p>
+                    S'il ne devait en<br />rester qu'un ce serait<br />lui. Le vélo de<br />compétition ultime,<br />le plus rapide jamais<br />sorti de nos ateliers.
+                </p>
+            </div>
+        </section>
+        <section class="why">
+            <div class="why__image">
+                <canvas id="canvas2"></canvas>
+            </div>
+            <div class="why__title">
+                <div class="title-large">
+                    <p>Nous avons conçu<br />le 795 Blade RS pour<br />gagner, ce qu'il a<br />fait des ses<br />premieres sorties sur l'UCI WorldTour</p>
+                </div>
+            </div>
+        </section>
+        <section class="photo">
+            <div class="photo__sticky">
+                <img src="assets/images/photo1.jpg" alt>
+            </div>
+            <div class="photo__sticky">
+                <img src="assets/images/photo2.jpg" alt>
+            </div>
+            <div class="photo__sticky">
+                <img src="assets/images/photo3.jpg" alt>
+            </div>
+        </section>
+        <section class="specs">
+            <div class="specs__image">
+                <canvas id="canvas3"></canvas>
+            </div>
+            <div class="specs__info">
+                <h3 class="specs__info--title">Specs techniques</h3>
+                <div class="specs__info--wrap">
+                    <div class="info">
+                        <h4 class="head">Made By Look</h4>
+                        <ul class="list">
+                            <li class="item">
+                                <p class="title">Tige de selle</p>
+                                <p class="desc">Tige de selle LOOK Aeropost 4 Carbon, D-shape, Longueur 350mm, déport 13.5mm. Poids : 160gr.</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Selle</p>
+                                <p class="desc">Selle Italia SLR Boost Superflow Carbon</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Cintre</p>
+                                <p class="desc">LOOK Combo Aero Carbon (XXS:38 XS/S:40 M/L:42 XL:44)</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Potence</p>
+                                <p class="desc">Potence LOOK Combo Aero Carbon. Angle -7°. Poids : 140gr. Intégration complète. (Longueur : XXS : 80mm XS : 90mm S : 100mm M/L : 110mm XL : 120mm)</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4 class="head">Roues</h4>
+                        <ul class="list">
+                            <li class="item">
+                                <p class="title">Roues</p>
+                                <p class="desc">CORIMA 47 mm MCC EVO DX PNEU</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Pneus</p>
+                                <p class="desc">CONTINENTAL GP 5000 tubetype 700x25</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4 class="head">Transmission & frein</h4>
+                        <ul class="list">
+                            <li class="item">
+                                <p class="title">Chaîne</p>
+                                <p class="desc">CAMPAGNOLO SUPER RECORD 12s</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Pédalier</p>
+                                <p class="desc">CAMPAGNOLO SUPER RECORD Pro T Carbon 50 x 34 (XXS : 165 mm – XS / S : 170 mm - M / L 172,5 mm - XL : 175 mm)</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Boîtier de pédalier</p>
+                                <p class="desc">BB T47 CAMPAGNOLO T47x86</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Cassette</p>
+                                <p class="desc">CAMPAGNOLO SUPER RECORD 12s 10x29</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Manettes</p>
+                                <p class="desc">CAMPAGNOLO ERGOPOWER WIRELESS</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Dérailleurs</p>
+                                <p class="desc">CAMPAGNOLO SUPER RECORD WIRELESS</p>
+                            </li>
+                            <li class="item">
+                                <p class="title">Freins</p>
+                                <p class="desc">CAMPAGNOLO SUPER RECORD DISC FLAT MOUNT</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4 class="head">Tailles</h4>
+                        <ul class="list">
+                            <li class="item">
+                                <p class="title">Tailles</p>
+                                <p class="desc">XS - S - M - L - XL</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cofidis2">
+            <div class="title-large">
+                <p>
+                    Disponible en 4<br />versions, de la plus<br />exclusive à la plus<br />radicale
+                </p>
+            </div>
+        </section>
+        <section class="product">
+            <div class="sticky">
+                <div class="product__list">
+                    <a href="javascript:void(0)" class="product__item">
+                        <div class="content">
+                            <p class="title">Rapide. Partout</p>
+                            <div class="image">
+                                <img src="assets/images/product1.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="ecommerce">
+                            <div class="info">
+                                <p class="name">795 Blade<sup>RS </sup>Iconic</p>
+                                <p class="price">5390,00€</p>
+                            </div>
+                            <span class="cta">Découvrir</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="product__item">
+                        <div class="content">
+                            <p class="title">Rapide. Partout</p>
+                            <div class="image">
+                                <img src="assets/images/product2.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="ecommerce">
+                            <div class="info">
+                                <p class="name">795 Blade<sup>RS </sup>Grey Nardo Glossy</p>
+                                <p class="price">12990,00€</p>
+                            </div>
+                            <span class="cta">Découvrir</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="product__item">
+                        <div class="content">
+                            <p class="title">Rapide. Partout</p>
+                            <div class="image">
+                                <img src="assets/images/product3.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="ecommerce">
+                            <div class="info">
+                                <p class="name">795 Blade<sup>RS </sup>Red Chrome Satin</p>
+                                <p class="price">12990,00€</p>
+                            </div>
+                            <span class="cta">Découvrir</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="product__item">
+                        <div class="content">
+                            <p class="title">Rapide. Partout</p>
+                            <div class="image">
+                                <img src="assets/images/product4.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="ecommerce">
+                            <div class="info">
+                                <p class="name">795 Blade<sup>RS </sup>Thunder Blue Satin</p>
+                                <p class="price">9790,00€</p>
+                            </div>
+                            <span class="cta">Découvrir</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" class="product__item">
+                        <div class="content">
+                            <p class="title">Rapide. Partout</p>
+                            <div class="image">
+                                <img src="assets/images/product5.jpg" alt>
+                            </div>
+                        </div>
+                        <div class="ecommerce">
+                            <div class="info">
+                                <p class="name">795 Blade<sup>RS </sup>Pro Team Black Mat / Glossy</p>
+                                <p class="price">8490,00€</p>
+                            </div>
+                            <span class="cta">Découvrir</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<script type="text/javascript" src="assets/js/lib/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script src="assets/js/lib/splitType.min.js"></script>
+<script type="text/javascript" src="assets/js/gsap.js"></script>
+<!-- <script type="text/javascript" src="assets/js/common.js"></script> -->
+</body>
+</html>

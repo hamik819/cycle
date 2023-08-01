@@ -1,0 +1,72 @@
+@charset "utf-8";
+@use './module/mixins' as *;
+@use './module/variables' as *;
+
+// 공통
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+}
+#wrapper{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 72px;
+    padding: 0 23px;
+    transform: translateY(0);
+    transition: transform .3s;
+    &.hide{
+        transform: translateY(-100%);
+    }
+    &__inner{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .logo{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            img{
+                width: 91px;
+            }
+        }
+        .gnb{
+            display: flex;
+            gap: 120px;
+            a{
+                color: #e6e6e6;
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}
+#container{
+    min-height:calc(100vh - 86px - 278px);
+    position: relative;
+    padding: 72px 0 0;
+}
+section{
+    background-color: #0d0d0d;
+}
+.title{
+    &-large{
+        font-weight: 800;
+        font-size: 120px;
+        padding-left: 150px;
+    }
+}
